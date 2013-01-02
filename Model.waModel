@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="Model" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
+
+<dataClasses name="Country" className="Country" collectionName="CountryCollection" scope="public" uuid="EF4C0DD8DAA3FA4BA87A098BB89390F0" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#D8D8D8">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="25" Y="20"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="9C77B183E7B7744182BE6F73B5EC545C" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="8649A45106D7224E92B132A2A9F6FC45" fieldPos="2" type="string"/>
+
+	<attributes name="abbreviation" kind="storage" scope="public" uuid="CE8D1F553270EC43B2CF773FBF1659F0" fieldPos="3" type="string"/>
+
+	<attributes name="flag" scope="public" uuid="3DC57620138EF7468FE79E5381AEE345" fieldPos="4" type="image" kind="storage"/>
+
+</dataClasses>
+</EntityModelCatalog>
